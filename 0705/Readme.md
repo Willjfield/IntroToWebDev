@@ -11,9 +11,10 @@ marp:true
 
 ## What is Javascript?
 ### Sort of helpful marketing buzzwords:
-* Web 1.0 <- HTML, CSS
-* [Web 2.0](https://en.wikipedia.org/wiki/Web_2.0) <- JS?
-* [Web 3.0](https://web3isgoinggreat.com/) <- ??? ugh
+
+* Web 1.0 -- HTML, CSS
+* [Web 2.0](https://en.wikipedia.org/wiki/Web_2.0) --- JS?
+* [Web 3.0](https://web3isgoinggreat.com/) ??? ugh
  
 [Node.js](https://en.wikipedia.org/wiki/Node.js)
 
@@ -30,9 +31,10 @@ How to include JS
 - JS/Typescript using a compiler
 ---
 ### Homework:
+
 Add JS to page
 - Link to external .js file
-
+(TODO)
 
 
 ### Reading:
