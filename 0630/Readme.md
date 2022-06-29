@@ -2,7 +2,32 @@
 marp:true
 
 - Homework
-- Discuss Readings
+
+---
+
+# Installing and setting up Git
+## [git](https://git-scm.com/downloads)
+## [github](https://github.com/)
+
+### Commands
+#### Terminal
+- pwd
+- ls
+- cd
+
+#### Git
+- git clone
+- git pull
+
+- git init
+- git add -A
+- git commit -m "message"
+- git push
+
+---
+
+## Live Preview VS Code Extension
+
 ---
 # [CSS](https://frontendmasters.com/guides/front-end-handbook/2019/#4.8)
 
