@@ -1,6 +1,5 @@
----
-marp: true
----
+[Class Recording](https://bbhosted.cuny.edu/bbcswebdav/pid-68088250-dt-content-rid-525204820_1/xid-525204820_1)
+
 ## Tools
 [VS Code](https://code.visualstudio.com/)
 [Chrome](https://www.google.com/chrome/downloads/) / [Chromium](https://www.chromium.org/getting-involved/download-chromium/) 
