@@ -5,6 +5,16 @@ marp:true
 
 ---
 
+# Command line (CLI)
+## Open on Mac/Linux
+- Spotlight -> Terminal
+## Windows
+- Git download comes with command line utility
+- or [Install PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+## Commands
+[Cheatsheet](https://www.git-tower.com/blog/command-line-cheat-sheet/')
+
 # Installing and setting up Git
 ## [git](https://git-scm.com/downloads)
 ## [github](https://github.com/)
@@ -16,7 +26,7 @@ marp:true
 - cd
 
 #### Git
-- git clone
+- git clone [url]
 - git pull
 
 - git init
