@@ -26,7 +26,7 @@ marp:true
 - cd
 
 #### Git
-- git clone
+- git clone [url]
 - git pull
 
 - git init
