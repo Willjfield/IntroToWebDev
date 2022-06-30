@@ -10,5 +10,5 @@ marp:true
 [Eloquent JS](https://eloquentjavascript.net)
 
 ---
-## Present projects
+## Open Workshop
 ---

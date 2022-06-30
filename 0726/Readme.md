@@ -20,9 +20,3 @@ mapbox
 others?
 
 ---
-
-### Homework:
-(TODO)
-
-### Reading:
-

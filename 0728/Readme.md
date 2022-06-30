@@ -22,8 +22,3 @@ Publishing & Version control
 * Git
 
 ---
-
-### Homework:
-(TODO)
-
-### Reading:

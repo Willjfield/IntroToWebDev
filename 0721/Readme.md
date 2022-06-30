@@ -22,5 +22,4 @@ Final:
 * Set up environment for final
 * Have something, even mostly blank page, set up
 
-### Reading:
-(TODO)
+---
