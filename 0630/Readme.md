@@ -24,9 +24,16 @@ marp:true
 - pwd
 - ls
 - cd
+- mkdir
 
 #### Git
 - git clone [url]
+- git pull
+
+- (if there are uncommited changes on your end)
+- git stash (if you don't want local changes)
+- git add -A
+- git commit "message"
 - git pull
 
 - git init

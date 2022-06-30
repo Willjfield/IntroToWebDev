@@ -1,0 +1,20 @@
+.test {
+    font-size: x-large;
+    font-family: sans-serif;
+
+    display: block;
+}
+
+/*Every tag with class first inside a tag with class test */
+.test .first{ 
+    color: blueviolet;
+}
+
+/* Every tag that has BOTH classes test and bolder */
+.test.bolder{
+    font-weight: bolder;
+}
+
+body {
+    background-color: aqua;
+}
