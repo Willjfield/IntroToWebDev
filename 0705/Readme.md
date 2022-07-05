@@ -1,9 +1,3 @@
----
-marp:true
-
-- Homework
-
----
 # CSS Follow up
 ## Positioning
 

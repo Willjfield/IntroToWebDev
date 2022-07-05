@@ -1,10 +1,3 @@
----
-marp:true
-
-- Homework
-
----
-
 # Command line (CLI)
 ## Open on Mac/Linux
 - Spotlight -> Terminal
