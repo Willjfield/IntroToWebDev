@@ -43,7 +43,7 @@
         HERE IS TEST
         <p class="second">child paragraph</p>
     </div>
-    <div class="test">
+    <div id="select-this" class="test">
         HERE IS TEST
         <p class="first">child paragraph</p>
     </div>
@@ -83,5 +83,35 @@
     <img src="" alt="">
     <a href=""></a> -->
 </body>
+
+<script>
+    let x = 2;
+    const y = 3;
+    const numStudents = 6;
+    /*y = y+1;*/
+    let name = "\"will\""; //add comment here
+
+    const displayNumStudents = `There are ${numStudents} students`;
+
+    let returnedValue = "6";
+    //let boolExample = numStudents === parseInt(returnedValue);
+    let boolExample = numStudents.toString() === returnedValue;
+    let secondExample = x === y;
+
+    let bothBools = boolExample && !secondExample;
+
+    let someNewVariable = null;
+
+    let element = document.getElementById("select-this");
+
+    console.log(element);
+
+    setTimeout(function(){
+        element.classList += " new-class";
+        console.log(element);
+    },1000);
+
+  
+</script>
 
 </html>

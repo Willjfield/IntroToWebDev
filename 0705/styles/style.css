@@ -8,13 +8,31 @@
 /*Every tag with class first inside a tag with class test */
 .test .first{ 
     color: blueviolet;
+    font-family: serif;
 }
 
 /* Every tag that has BOTH classes test and bolder */
 .test.bolder{
     font-weight: bolder;
+
+}
+
+.new-class{
+    color:ink;
 }
 
 body {
     background-color: aqua;
+}
+
+p{
+ border: 1px solid;
+}
+
+span .first{
+
+}
+
+div .first{
+
 }
