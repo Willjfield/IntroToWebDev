@@ -1,5 +1,5 @@
 const API_KEY = 'd08bd17521244c1c9c9200308220607';
-const URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=New York&aqi=no`;
+const URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=New York&aqi=no`;
 
 axios.get(URL).then((resp) => {
     let loading = document.getElementById('loading-message');
