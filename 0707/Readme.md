@@ -4,6 +4,11 @@
 [Eloquent JS](https://eloquentjavascript.net)
 
 ---
+
+[Adding SSH Key Github/git](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+---
+
 ## Getting up and running
 [Functions](https://eloquentjavascript.net/03_functions.html)
 
