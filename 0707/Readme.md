@@ -15,7 +15,7 @@
 
 ---
 ### Homework:
-(TODO)
+Start a repository and github page for your final project.
 
 ### Reading:
 
