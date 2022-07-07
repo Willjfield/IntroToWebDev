@@ -6,6 +6,7 @@
 ---
 ## Getting up and running
 [Functions](https://eloquentjavascript.net/03_functions.html)
+
 [Data Structures: Objects and Arrays](https://eloquentjavascript.net/04_data.html)
 
 [The Secret Life of Objects](https://eloquentjavascript.net/06_object.html)
