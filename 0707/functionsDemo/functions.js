@@ -87,14 +87,24 @@ header.appendChild(title);
 let htmlContainer = document.getElementById("select-me");
 htmlContainer.appendChild(header);
 
-MOUNTAINS.forEach(function (item) {
-    console.log(item)
-    let header = document.createElement('div');
-    let title = document.createTextNode(item.name);
-    header.appendChild(title);
 
-    let htmlContainer = document.getElementById("select-me");
-    htmlContainer.appendChild(header);
+MOUNTAINS.forEach(function (item) {
+    
+    let mountainDiv = document.createElement('div');
+    let mountainName = document.createTextNode(item.name);
+    mountainDiv.appendChild(mountainName);
+
+    htmlContainer.appendChild(mountainDiv);
+
+    let heightBar = document.createElement('div');
+    heightBar.className = "height-bar";
+
+    const displayHeight = item.height/50;
+
+    heightBar.style.width = displayHeight+"px";
+
+    htmlContainer.appendChild(heightBar);
+
 
     //Create a new 'div' element and assign it to a variable
     //Create a new text node referencing the mountain name (hint: mountain.name) and assign it to a variable
