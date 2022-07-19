@@ -10,14 +10,12 @@ console.log(selectedDiv);
 // }
 //let product;
 
-function multiply(firstNumber, secondNumber){
+function multiply(firstNumber, secondNumber) {
 
-    let product = firstNumber*secondNumber;
+    let product = firstNumber * secondNumber;
     return product;
     //console.log(firstNumber*secondNumber);
 }
-
-
 
 // let multiply = ()=>{
 //     console.log(x*y);
@@ -27,30 +25,72 @@ function multiply(firstNumber, secondNumber){
 let x = 2;
 let y = 3;
 
-let newProduct = multiply(x,y);
+function divide(numerator, denominator) {
+
+    return numerator / denominator;
+}
+
+let result = divide(x, y);
+
+console.log(result)
+
+let newProduct = multiply(x, y);
 console.log(newProduct);
 
-let movieArray = ["Indiana Jones", "Ghostbusters", "Star Wars","Inception"];
-console.log(movieArray[0])
+let movieArray = ["Indiana Jones", "Ghostbusters", "Star Wars", "Inception"];
+console.log(movieArray[0]);
 
-movieArray.push("El Topo")
+movieArray.push("El Topo");
 
 console.log(movieArray.length)
 
-for(let movieIndex = 0; movieIndex < movieArray.length; movieIndex++){
+for (let movieIndex = 0; movieIndex < movieArray.length; movieIndex++) {
     console.log(movieArray[movieIndex])
 }
 
-movieArray.forEach(function(item, index){
-    if(item[0]==='I'){
-        movieArray[index] = "I liked "+item;
-    }else{
-        movieArray[index] = "I didn't like "+item;
+//movieArray.forEach();
+
+movieArray.forEach(
+    function (item, index) {
+        console.log(movieArray[0]);
+        console.log(item[0]);
+        // if (item[0] === 'I') {
+        //     movieArray[index] = "I liked " + item;
+        // } else {
+        //     movieArray[index] = "I didn't like " + item;
+        // }
     }
-    
-});
+);
 
 console.log(movieArray)
 //let newArray = movieArray.slice(0,movieArray.indexOf("Star Wars")+1);
 
 //console.log(newArray)
+
+let myName = "Will Field";
+console.log(myName[2]);
+
+const MOUNTAINS = [
+    { name: "Kilimanjaro", height: 5895, place: "Tanzania" },
+    { name: "Everest", height: 8848, place: "Nepal" },
+    { name: "Mount Fuji", height: 3776, place: "Japan" },
+    { name: "Vaalserberg", height: 323, place: "Netherlands" },
+    { name: "Denali", height: 6168, place: "United States" },
+    { name: "Popocatepetl", height: 5465, place: "Mexico" },
+    { name: "Mont Blanc", height: 4808, place: "Italy/France" }
+];
+
+let header = document.createElement('h1');
+let title = document.createTextNode("Mountains");
+header.appendChild(title);
+
+let htmlContainer = document.getElementById("select-me");
+htmlContainer.appendChild(header);
+
+MOUNTAINS.forEach(function (mountain) {
+    //Create a new 'div' element and assign it to a variable
+    //Create a new text node referencing the mountain name (hint: mountain.name) and assign it to a variable
+
+    //use appendChild to append the new text node to the new div (which you can reference as the variable you assigned it to)
+    //use appendChild to append the new div to htmlContainer (hint: already assigned as a variable above, outside the forEach loop)
+});

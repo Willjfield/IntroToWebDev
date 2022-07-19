@@ -1,56 +1,56 @@
-let selectedDiv = document.getElementById('select-me');
-console.log(selectedDiv);
+// let selectedDiv = document.getElementById('select-me');
+// console.log(selectedDiv);
 
 
 
-//console.log(x*y);
+// //console.log(x*y);
 
-// let multiply = function(){
-//     console.log(x*y);
-// }
-//let product;
+// // let multiply = function(){
+// //     console.log(x*y);
+// // }
+// //let product;
 
-function multiply(firstNumber, secondNumber) {
+// function multiply(firstNumber, secondNumber) {
 
-    let product = firstNumber * secondNumber;
-    return product;
-    //console.log(firstNumber*secondNumber);
-}
-
-
-
-// let multiply = ()=>{
-//     console.log(x*y);
+//     let product = firstNumber * secondNumber;
+//     return product;
+//     //console.log(firstNumber*secondNumber);
 // }
 
 
-let x = 2;
-let y = 3;
 
-let newProduct = multiply(x, y);
-console.log(newProduct);
+// // let multiply = ()=>{
+// //     console.log(x*y);
+// // }
 
-let movieArray = ["Indiana Jones", "Ghostbusters", "Star Wars", "Inception"];
-console.log(movieArray[0])
 
-movieArray.push("El Topo")
+// let x = 2;
+// let y = 3;
 
-console.log(movieArray.length)
+// let newProduct = multiply(x, y);
+// console.log(newProduct);
 
-for (let movieIndex = 0; movieIndex < movieArray.length; movieIndex++) {
-    console.log(movieArray[movieIndex])
-}
+// let movieArray = ["Indiana Jones", "Ghostbusters", "Star Wars", "Inception"];
+// console.log(movieArray[0])
 
-movieArray.forEach(function (item, index) {
-    if (item[0] === 'I') {
-        movieArray[index] = "I liked " + item;
-    } else {
-        movieArray[index] = "I didn't like " + item;
-    }
+// movieArray.push("El Topo")
 
-});
+// console.log(movieArray.length)
 
-console.log(movieArray)
+// for (let movieIndex = 0; movieIndex < movieArray.length; movieIndex++) {
+//     console.log(movieArray[movieIndex])
+// }
+
+// movieArray.forEach(function (item, index) {
+//     if (item[0] === 'I') {
+//         movieArray[index] = "I liked " + item;
+//     } else {
+//         movieArray[index] = "I didn't like " + item;
+//     }
+
+// });
+
+// console.log(movieArray)
 //let newArray = movieArray.slice(0,movieArray.indexOf("Star Wars")+1);
 
 //console.log(newArray)
@@ -114,16 +114,16 @@ let media = {
         ]
     }
 }
-
+//console.log(media["movies"]);
 //Parsing Object
 media.movies.drama.forEach(function (item, index) {
 
     if (item["score"] > 9) {
-        console.log("I love " + item);
+        console.log("I love " + item.title);
     } else if (item["score"] > 8) {
-        console.log("I liked " + item);
+        console.log("I liked " + item.title);
     } else {
-        console.log("I didn't like " + item);
+        console.log("I didn't like " + item.title);
     }
 
 //Switch statement
