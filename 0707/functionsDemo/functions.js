@@ -87,7 +87,15 @@ header.appendChild(title);
 let htmlContainer = document.getElementById("select-me");
 htmlContainer.appendChild(header);
 
-MOUNTAINS.forEach(function (mountain) {
+MOUNTAINS.forEach(function (item) {
+    console.log(item)
+    let header = document.createElement('div');
+    let title = document.createTextNode(item.name);
+    header.appendChild(title);
+
+    let htmlContainer = document.getElementById("select-me");
+    htmlContainer.appendChild(header);
+
     //Create a new 'div' element and assign it to a variable
     //Create a new text node referencing the mountain name (hint: mountain.name) and assign it to a variable
 
