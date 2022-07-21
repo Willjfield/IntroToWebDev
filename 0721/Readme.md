@@ -5,9 +5,18 @@
 
 ---
 ## What is Javascript?
-[Nodejs](https://eloquentjavascript.net/20_node.html)
+APIs
 
-Responsive Design
+[Handling Events](https://eloquentjavascript.net/15_event.html)
+[Events](https://www.w3schools.com/jsref/dom_obj_event.asp)
+
+Libraries
+
+Next week:
+
+~~[Nodejs](https://eloquentjavascript.net/20_node.html)~~
+
+~~Responsive Design~~
 ---
 
 ### Homework:

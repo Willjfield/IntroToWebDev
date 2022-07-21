@@ -1,3 +1,46 @@
+const MOUNTAINS = [
+    { name: "Kilimanjaro", height: 5895, place: "Tanzania" },
+    { name: "Everest", height: 8848, place: "Nepal" },
+    { name: "Mount Fuji", height: 3776, place: "Japan" },
+    { name: "Vaalserberg", height: 323, place: "Netherlands" },
+    { name: "Denali", height: 6168, place: "United States" },
+    { name: "Popocatepetl", height: 5465, place: "Mexico" },
+    { name: "Mont Blanc", height: 4808, place: "Italy/France" }
+];
+
+let header = document.createElement('h1');
+let title = document.createTextNode("Mountains");
+header.appendChild(title);
+
+let htmlContainer = document.getElementById("select-me");
+htmlContainer.appendChild(header);
+
+
+MOUNTAINS.forEach(function (item) {
+    
+    let mountainDiv = document.createElement('div');
+    let mountainName = document.createTextNode(item.name);
+    mountainDiv.appendChild(mountainName);
+
+    htmlContainer.appendChild(mountainDiv);
+
+    let heightBar = document.createElement('div');
+    heightBar.className = "height-bar";
+
+    const displayHeight = item.height/50;
+
+    heightBar.style.width = displayHeight+"px";
+
+    htmlContainer.appendChild(heightBar);
+
+
+    //Create a new 'div' element and assign it to a variable
+    //Create a new text node referencing the mountain name (hint: mountain.name) and assign it to a variable
+
+    //use appendChild to append the new text node to the new div (which you can reference as the variable you assigned it to)
+    //use appendChild to append the new div to htmlContainer (hint: already assigned as a variable above, outside the forEach loop)
+});
+
 // // let selectedDiv = document.getElementById('select-me');
 // // console.log(selectedDiv);
 
@@ -152,45 +195,3 @@
 // });
 
 
-const MOUNTAINS = [
-    { name: "Kilimanjaro", height: 5895, place: "Tanzania" },
-    { name: "Everest", height: 8848, place: "Nepal" },
-    { name: "Mount Fuji", height: 3776, place: "Japan" },
-    { name: "Vaalserberg", height: 323, place: "Netherlands" },
-    { name: "Denali", height: 6168, place: "United States" },
-    { name: "Popocatepetl", height: 5465, place: "Mexico" },
-    { name: "Mont Blanc", height: 4808, place: "Italy/France" }
-];
-
-let header = document.createElement('h1');
-let title = document.createTextNode("Mountains");
-header.appendChild(title);
-
-let htmlContainer = document.getElementById("select-me");
-htmlContainer.appendChild(header);
-
-
-MOUNTAINS.forEach(function (item) {
-    
-    let mountainDiv = document.createElement('div');
-    let mountainName = document.createTextNode(item.name);
-    mountainDiv.appendChild(mountainName);
-
-    htmlContainer.appendChild(mountainDiv);
-
-    let heightBar = document.createElement('div');
-    heightBar.className = "height-bar";
-
-    const displayHeight = item.height/50;
-
-    heightBar.style.width = displayHeight+"px";
-
-    htmlContainer.appendChild(heightBar);
-
-
-    //Create a new 'div' element and assign it to a variable
-    //Create a new text node referencing the mountain name (hint: mountain.name) and assign it to a variable
-
-    //use appendChild to append the new text node to the new div (which you can reference as the variable you assigned it to)
-    //use appendChild to append the new div to htmlContainer (hint: already assigned as a variable above, outside the forEach loop)
-});
