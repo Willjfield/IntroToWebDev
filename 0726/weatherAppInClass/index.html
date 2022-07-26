@@ -16,10 +16,13 @@
     <div id="main-container">
         <div class="centered">
             <h1>My Weather App</h1>
-            <h3 id="loading-msg">Looking for results...</h3>
+            <div id="loading">
+                <h3 id="loading-msg">Looking for results...</h3>
+                <img id="spinner-icon" src="spinner.png">
+            </div>
             <div id="weather-results"></div>
-            <input type="text" id="user-input"/>
-            <button type="button" id="sumbit-button" class="btn btn-primary">Look for weather</button>
+            <input type="text" id="user-input" />
+            <button type="button" id="submit-button" class="btn btn-primary">Look for weather</button>
         </div>
 
     </div>
@@ -29,6 +32,7 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script src="scripts/main.js"></script>
 

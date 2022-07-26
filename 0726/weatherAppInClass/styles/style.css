@@ -1,0 +1,35 @@
+@media (max-width: 500px) {
+    .centered {
+        text-align: left;
+    }
+
+    #loading-msg {
+        display: none;
+    }
+}
+
+.centered {
+    text-align: center;
+}
+
+#loading{
+    display: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#spinner-icon {
+    width: 50px;
+    animation-name: spin;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
