@@ -16,15 +16,18 @@
 
 [Client Hints (The future)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Client_hints)
 
+[CSS Animations](https://www.w3schools.com/css/css3_animations.asp)
 ---
 ## Libraries
-jquery
+[jquery](https://jquery.com/)
+
+greensock
 
 d3
 
 three.js
 
-mapbox
+mapboxgl, leaflet
 
 others?
 
