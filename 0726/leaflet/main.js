@@ -25,8 +25,8 @@ let bndsArray = []
 
 dummyData.forEach(function(city){
     var marker = L.marker([city.lat,city.lng]).addTo(map);
-    bndsArray.push(L.point(city.lat,city.lng))
+    bndsArray.push([city.lat,city.lng])
 });
 
-let bnds = L.bounds(bndsArray);
-map.fitBounds(bnds)
+
+map.fitBounds(bndsArray)
