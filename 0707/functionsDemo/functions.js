@@ -30,6 +30,33 @@ function divide(numerator, denominator) {
     return numerator / denominator;
 }
 
+function logSomething(){
+    console.log('something')
+}
+
+function logAnything(placeholder){
+    console.log(placeholder)
+}
+
+function outputAnyNumberPlus1(placeholderNum){
+    return placeholderNum +1;
+}
+
+let eightplusone = outputAnyNumberPlus1(8);
+
+console.log(eightplusone);
+
+function runThisFunction(functionPlaceholder){
+    console.log('start');
+    //do a bunch of things
+    functionPlaceholder();
+}
+
+runThisFunction(function(){
+    console.log(2+1)
+})
+//logAnything([12,41])
+
 let result = divide(x, y);
 
 console.log(result)

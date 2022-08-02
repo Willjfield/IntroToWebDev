@@ -14,8 +14,14 @@
     navigator.geolocation.getCurrentPosition(function(location){
         const lat = location.coords.latitude;
         const lng = location.coords.longitude;
+        
+        const view = new MapView({
+          map: map,
+          center: [lng, lat], // Longitude, latitude
+          zoom: 13, // Zoom level
+          container: "viewDiv" // Div element
+        });
 
-        document.getElementById("location").innerText = `Lat: ${lat}, Lng: ${lng}`
     });
     
 </script>
