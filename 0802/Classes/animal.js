@@ -1,4 +1,4 @@
-class Animal{
+/*class Animal{
     constructor(name){
         console.log(`I am a new ${name}!`);
         
@@ -26,4 +26,4 @@ class Pet extends Animal{
         super(name);
         console.log('...and I am a pet.')
     }
-}
+}*/
